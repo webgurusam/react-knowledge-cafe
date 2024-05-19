@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import Bookmark from '../Bookmark/Bookmark';
 const Bookmarks = ({bookmarks, readingTime}) => {
-    console.log(bookmarks)
     return (
         <div className="md:w-1/3 border border-cyan-300 bg-gray-300 ml-4 mt-2 pt-4">
             <div className='bg-slate-200 p-4 m-4 rounded-xl'>

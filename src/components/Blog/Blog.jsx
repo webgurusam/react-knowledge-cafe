@@ -31,7 +31,7 @@ const Blog = ({blog, handlerAddToBookmark, handleMarkAsRead}) => {
             </p>
             <button 
                 className='text-purple-800 font-bold underline' 
-                onClick={() => handleMarkAsRead(reading_time)}
+                onClick={() => handleMarkAsRead(reading_time, id)}
             >Mark as read</button>
         </div>
     );
