@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "cover_image": "https://i.imghippo.com/files/mJlzd1716084902.jpg",
+        "author": {
+            "name": "John Doe",
+            "image": "https://i.imghippo.com/files/P9zQb1716085114.png"
+        },
+        "title": "The Art of Coding",
+        "posted_date": "2024-01-15",
+        "reading_time": 5,
+        "hash_tags": ["#coding", "#programming", "#developer"]
+    },
+    {
+        "id": "2",
+        "cover_image": "https://i.imghippo.com/files/OIUXE1716085048.png",
+        "author": {
+            "name": "Jane Smith",
+            "image": "https://i.imghippo.com/files/DEGVa1716085133.jpg"
+        },
+        "title": "Exploring the Universe",
+        "posted_date": "2024-02-20",
+        "reading_time": 8,
+        "hash_tags": ["#space", "#astronomy", "#science"]
+    },
+    {
+        "id": "3",
+        "cover_image": "https://i.imghippo.com/files/fPICA1716085075.png",
+        "author": {
+            "name": "Alice Johnson",
+            "image": "https://i.imghippo.com/files/6nT2L1716085150.jpg"
+        },
+        "title": "Mastering Data Science",
+        "posted_date": "2024-03-05",
+        "reading_time": 10,
+        "hash_tags": ["#datascience", "#bigdata", "#analytics"]
+    },
+    {
+        "id": "4",
+        "cover_image": "https://i.imghippo.com/files/Z0oUT1716085096.jpg",
+        "author": {
+            "name": "Michael Brown",
+            "image": "https://i.imghippo.com/files/DqQCc1716085162.jpg"
+        },
+        "title": "A Journey Through History",
+        "posted_date": "2024-04-10",
+        "reading_time": 6,
+        "hash_tags": ["#history", "#culture", "#heritage"]
+    }
+]
