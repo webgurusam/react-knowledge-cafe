@@ -10,7 +10,14 @@ function App() {
 
   const handlerAddToBookmark = blog => {
     const newBookmarks = [...bookmarks, blog];
-    setBookmarks(newBookmarks);
+    const uniqueBookmarks = bookmarks.find(book => book.id === blog.id);
+    // duplicate checking
+    if(!uniqueBookmarks){
+      setBookmarks(newBookmarks);
+    }
+    else{
+      return alert("It's already available on bookmarks!!!");
+    }
   }
 
   const handleMarkAsRead = (time, id) => {
