@@ -22,7 +22,14 @@ function App() {
 
   const handleMarkAsRead = (time, id) => {
     const newReadingTime = readingTime + time;
-    setReadingTime(newReadingTime);
+    const newReadingBookmark = bookmarks.find(book => book.id === id);
+    // adding reading times with the condition
+    if(newReadingBookmark){
+      setReadingTime(newReadingTime);
+    }
+    else{
+      alert("There is no bookmarked available at this moment");
+    }
     // remove the mark blog from bookmark
     const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
     setBookmarks(remainingBookmarks);
